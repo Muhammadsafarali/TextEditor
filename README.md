@@ -40,9 +40,9 @@ button.show()
 app.exec_()
 ```
 
-Для удобной трансляции ui-файлов «дизайнера» в Python-код была использована программа pyuic4 из пакета-посредника между Qt Designer и Python, которая называется pyqt4-dev-tools.
+    Для удобной трансляции ui-файлов «дизайнера» в Python-код была использована программа pyuic4 --- из пакета-посредника между Qt Designer и Python, которая называется pyqt4-dev-tools.
 
-Установка:
+Установка `pyqt4-dev-tools`:
 
 ```bash
   sudo apt install pyqt4-dev-tools
@@ -54,10 +54,10 @@ app.exec_()
   pyuic4 designer.ui > designer.py
 ```  
   
+  ***
 ###Полезные ссылки:
 
 1) [хабр про PyQt4][id1];
-
 2) [how to install PyQt4][id2];
 
 
