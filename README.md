@@ -27,32 +27,32 @@
 
 ##Установка PyQt4
 
-'''bash
+```bash
   sudo apt-get install python-qt4
-'''
+```
 
-'''python
+```python
 import sys
 from PyQt4.QtGui import *
 app = QApplication(sys.argv)
 button = QPushButton("Hello World", None)
 button.show()
 app.exec_()
-'''
+```
 
 Для удобной трансляции ui-файлов «дизайнера» в Python-код была использована программа pyuic4 из пакета-посредника между Qt Designer и Python, которая называется pyqt4-dev-tools.
 
 Установка:
 
-'''bash
+```bash
   sudo apt install pyqt4-dev-tools
-'''  
+```  
   
 Использование:
 
-'''bash
+```bash
   pyuic4 designer.ui > designer.py
-'''  
+```  
   
 ###Полезные ссылки:
 
