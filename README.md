@@ -25,7 +25,7 @@
 <img src="https://github.com/Muhammadsafarali/TextEditor/blob/master/TextEditor.png" width="500">
 
 
-##Установка PyQt4
+###Установка PyQt4
 
 ```bash
   sudo apt-get install python-qt4
@@ -40,15 +40,17 @@ button.show()
 app.exec_()
 ```
 
-    Для удобной трансляции ui-файлов «дизайнера» в Python-код была использована программа pyuic4 --- из пакета-посредника между Qt Designer и Python, которая называется pyqt4-dev-tools.
+Для удобной трансляции ui-файлов «дизайнера» в Python-код была использована программа pyuic4 
+--- 
+из пакета-посредника между Qt Designer и Python, которая называется pyqt4-dev-tools.
 
-Установка `pyqt4-dev-tools`:
+###Установка **`pyqt4-dev-tools`**:
 
 ```bash
   sudo apt install pyqt4-dev-tools
 ```  
   
-Использование:
+###Использование:
 
 ```bash
   pyuic4 designer.ui > designer.py
