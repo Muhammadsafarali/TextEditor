@@ -24,7 +24,7 @@
 
 <img src="https://github.com/Muhammadsafarali/TextEditor/blob/master/TextEditor.png" width="500">
 
-
+  ***
 ###Установка PyQt4
 
 ```bash
@@ -59,6 +59,7 @@ app.exec_()
 ###Полезные ссылки:
 
 1) [хабр про PyQt4][id1];
+
 2) [how to install PyQt4][id2];
 
 
