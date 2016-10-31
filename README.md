@@ -22,4 +22,4 @@
 [id]:http://www.rkblog.rk.edu.pl/w/p/simple-text-editor-pyqt4/
 
 
-<img src="https://github.com/Muhammadsafarali/TextEditor/blob/master/TextEditor.png" width="250">
+<img src="https://github.com/Muhammadsafarali/TextEditor/blob/master/TextEditor.png" width="500">
