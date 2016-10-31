@@ -1,4 +1,4 @@
-# TextEditor
+# Text Editor
 
 ## Описание
 
@@ -28,16 +28,16 @@
 ###Установка PyQt4
 
 ```bash
->  sudo apt-get install python-qt4
+ >  sudo apt-get install python-qt4
 ```
 
 ```python
-> import sys
-> from PyQt4.QtGui import *
-> app = QApplication(sys.argv)
-> button = QPushButton("Hello World", None)
-> button.show()
-> app.exec_()
+ > import sys
+ > from PyQt4.QtGui import *
+ > app = QApplication(sys.argv)
+ > button = QPushButton("Hello World", None)
+ > button.show()
+ > app.exec_()
 ```
 
 Для удобной трансляции ui-файлов «дизайнера» в Python-код была использована программа **pyuic4** 
@@ -46,13 +46,13 @@
 ###Установка **`pyqt4-dev-tools`**:
 
 ```bash
->  sudo apt install pyqt4-dev-tools
+ >  sudo apt install pyqt4-dev-tools
 ```  
   
 ###Использование:
 
 ```bash
->  pyuic4 designer.ui > designer.py
+ >  pyuic4 designer.ui > designer.py
 ```  
   
   ***
